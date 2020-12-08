@@ -9,8 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "engines" : {
-    "node": "14.15.03"
+  "engines": {
+    "node": "14.15.0"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
@@ -21,8 +21,8 @@
     "express-session": "^1.17.1",
     "local": "^0.3.3",
     "md5": "^2.3.0",
-    "mongoose": "^5.10.10",
-    "mongoose-encryption": "^2.0.2",
+    "mongoose": "^5.11.5",
+    "mongoose-encryption": "^2.0.3",
     "mongoose-findorcreate": "^3.0.0",
     "nodemon": "^2.0.6",
     "passport": "^0.4.1",
