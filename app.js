@@ -14,6 +14,7 @@ const findOrCreate = require('mongoose-findorcreate');
 const app = express();
 
 app.use(express.static("public"));
+app.use(favicon(__dirname + '/public/favicon.png'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
